@@ -114,7 +114,7 @@ export const HeaderMenu = styled.div`
       background-color: rgba(0, 0, 0, 0.75);
       height: 100vh;
       margin-left: 0;
-      position: absolute;
+      position: fixed;
       inset: 0;
       z-index: 999;
 
