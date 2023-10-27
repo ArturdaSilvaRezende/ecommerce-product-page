@@ -1,0 +1,10 @@
+.modal-open {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  html,
+  body {
+    overflow: auto;
+  }
+}

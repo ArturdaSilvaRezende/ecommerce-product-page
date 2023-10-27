@@ -13,12 +13,25 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Kumbh Sans', sans-serif;
     }
 
+    a {
+        text-decoration: none;
+    }
+
+    ul > li {
+        list-style: none;
+    }
+
     button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
 
+    img {
+        display: block;
+        width: 100%;
+    }
+    
     :root {
         // ========= Colors =========
 
@@ -32,7 +45,7 @@ const GlobalStyle = createGlobalStyle`
         --Grayish-blue: hsl(220, 14%, 75%);
         --Light-grayish-blue: hsl(223, 64%, 98%);
         --White: hsl(0, 0%, 100%);
-        --Black: hsl(0, 0%, 0%); //(with 75% opacity for lightbox background)
+        --Black: hsl(0, 0%, 0%); 
     }
 `;
 
